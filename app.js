@@ -21,4 +21,5 @@ function calc()
             document.getElementById("result").value=0;
             break;
     }
+
 }
