@@ -6,16 +6,20 @@ function calc()
     
     switch(operators) {
         case '+' :
-            document.getElementById("result").value=num1+num2;
+            var ans=(num1+num2).toFixed(2)
+            document.getElementById("result").value=ans;
             break;
         case '-' :
-            document.getElementById("result").value=num1-num2;
+            var ans=(num1-num2).toFixed(2)
+            document.getElementById("result").value=ans;
             break;
         case '*' :
-            document.getElementById("result").value=num1*num2;
+            var ans=(num1*num2).toFixed(2)
+            document.getElementById("result").value=ans;
             break;
         case '/' :
-            document.getElementById("result").value=num1/num2;
+            var ans=(num1/num2).toFixed(2)
+            document.getElementById("result").value=ans;
             break;
         default:
             document.getElementById("result").value=0;
